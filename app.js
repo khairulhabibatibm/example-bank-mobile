@@ -15,7 +15,7 @@ var cfenv = require('cfenv');
 // create a new express server
 var app = express();
 
-var port = process.env.PORT || 8060;
+var port = process.env.PORT || 8080;
 
 let DEVMODE = process.env.DEVMODE
 
