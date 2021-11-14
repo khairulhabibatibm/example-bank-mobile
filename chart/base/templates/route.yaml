@@ -3,12 +3,10 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: {{ $fullName }}
-  annotations:
-    argocd.argoproj.io/sync-options: Validate=false
+  name: mobile-simulator-service
 spec:
   to:
     kind: Service
-    name: {{ $fullName }}
+    name: mobile-simulator-service
     weight: 100
 {{- end }}
