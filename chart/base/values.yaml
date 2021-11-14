@@ -17,7 +17,7 @@ fullnameOverride: "mobile-simulator"
 version: 0.0.1
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 8080
 
 route:
